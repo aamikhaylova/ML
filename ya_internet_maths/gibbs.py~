@@ -8,7 +8,7 @@ TRAINING_SET = 'train'
 TESTING_SET = 'test'
 OUTPUT = 'out'
 
-STEPS = 1000
+STEPS = 100
 C_EXP = 0.001
 PSI = 0.8 # TODO: try normal distribution if needed
 LEARN_SAMPLES_COUNT = 97290
@@ -49,7 +49,6 @@ def readData(filename) : # sample = [X, y] where y is relevance
             new_sample[1] = l[1]
         else :
             new_sample[0][l[1] - 1] = l[2]
-    samples.append(new_sample) # the last
     f.close()
     return samples
 
