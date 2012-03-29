@@ -1,0 +1,19 @@
+official information :
+http://imat2009.yandex.ru/datasets
+
+train / test files format :
+
+sample_number feature_number feature_relevance
+
+where :
+
+1 <= feature_number <= 246
+
+please notice :
+
+feature #246 is sample relevance (y)
+0 <= feature#246_relevance <= 4
+in test file :
+feature#246_relevance = -1
+
+if feature#N_relevance = 0.0 line with feature #N is missed in both train and test files
