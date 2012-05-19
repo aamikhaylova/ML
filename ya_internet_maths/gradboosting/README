@@ -1,0 +1,11 @@
+simple gradient boosting from R gbm package
+
+run in terminal: r boosting.r
+
+please note: files imat2009_learning.dat, imat2009_test.dat and boosting.r are supposed to be in one directory
+
+file format: one line = one sample & all feature values are tab-separated
+
+-------
+
+best result: 4.240387
