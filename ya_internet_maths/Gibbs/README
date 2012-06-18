@@ -17,4 +17,4 @@ if feature#N_relevance = 0.0 line with feature #N is missed in both train and te
 
 -------
 
-best result: 3.8 - 3.9
+best result: 3.9 - 4.0
